@@ -1,0 +1,158 @@
+.header {
+    margin-bottom: 60px;
+    width: 1100px;
+    padding: 25px;
+    margin: 0 auto;
+}
+#logo {
+    float: left;
+}
+.navigation {
+  
+}
+
+a, a:hover{
+    text-decoration: none; 
+}
+.nav-references {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;  
+    text-transform: uppercase;
+    margin-left: 70px;
+     float: right;
+    margin-right: ;
+}
+.main {
+    padding: 25px;
+    margin: 0 auto;
+    width: 1100px;
+}
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+#section-name {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    }
+.section {
+    width: 661px;
+     margin-left: 50px;
+    
+    
+}
+.article-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+}
+.image-in-the-article {
+    margin-bottom: 50px;
+}
+.aside {
+    float: right;
+    width: 272px;
+    margin-right: 90px;
+}
+.aside-column {
+    margin-bottom: 60px;
+}
+.bio-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #626262;
+}
+.bio-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    color: #626262;
+    
+}
+.share-icon {
+    margin-right: 10px;
+}
+.simple-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+}
+.italic-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 10px;
+}
+.share-bar {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    color: #b4ad9e;
+    float: right;
+    margin-top: 50px;
+}
+.top-posts-header {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #b4ad9e;
+    margin-bottom: 20px;
+}
+.post-ref {
+    margin-bottom: 20px;
+}
+.marker-image {
+     margin-right: 20px;   
+}
+.marker-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
+}
+.comment {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    color: #b4ad9e;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.banner {
+    text-align: center;
+}
+.banner-size {
+    font-family: 'Ubuntu';
+    font-size: 48px;
+    color: #ffffff;
+    position: relative;
+    margin: inherit;
+    margin-top: -150px;
+  
+}
+.banner-spot {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: -100px;
+}
+
+footer {
+    background-color: #d9d9d9;
+    padding-left:  10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.footer-ref {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 10px;
+    float: left;
+}
+.follow-bar {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    float: right;
+    text-align: center;
+}

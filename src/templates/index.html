@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MINIMO</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/src/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="/src/styles/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+
+     
   </head>
   <body>
       <!---------------------------------Header--------------------------------->
@@ -14,10 +20,10 @@
           <img src="/src/images/header/minim%C3%B8.png" alt="logotype" title="Join us and discover the beauty of this world">
         </div>
         <div class="navigaion">
-            <span class="nav-references"><a href="#">lifestyle</a></span>
-            <span class="nav-references"><a href="#">photodiary</a></span>
-            <span class="nav-references"><a href="#">music</a></span>
-            <span class="nav-references"><a href="#">travel</a></span>
+            <span><a href="#"  class="nav-references">lifestyle</a></span>
+            <span><a href="#"  class="nav-references">photodiary</a></span>
+            <span><a href="#" class="nav-references">music</a></span>
+            <span><a href="#" class="nav-references">travel</a></span>
         </div>
       </header>
       <!---------------------------------Main--------------------------------->
@@ -25,17 +31,59 @@
       <div class="cover-image">
           <img src="/src/images/body/cover-image/image.png" alt="cover image">
           </div>
+          <div class="container">
+         
       <!---------------------------------Aside-block--------------------------------->
           <aside class="aside">
-            <div class="about">
-              
+              <div class="aside-column">
+              <div class="about">
+              <div class="bio-image"><img src="/src/images/body/sidebar/about/bio/about-image.png" alt="bio image"></div>
+                <div bio-text>
+                <h1 class="bio-header">About me</h1>
+                <p class="bio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <div class="bio-icons">
+                    <span class="share-icon"><a href="#"><img src="/src/images/body/sidebar/about/icons/fb.png" alt="facebook"></a></span>
+                    <span class="share-icon"><a href="#"><img src="/src/images/body/sidebar/about/icons/instagram.png" alt="instagram"></a></span>
+                    <span class="share-icon"><a href="#"><img src="/src/images/body/sidebar/about/icons/pinterest.png" alt="pinterest"></a></span>
+                    </div>
+                </div>
             </div>
-            <div class="top-posts">
+              </div>
+            <div class="aside-column">
+              <div class="top-posts">
+                <div class="top-posts-header">TOP POSTS</div>
+                <div class="post-ref">
+                    <a href="#">
+                        <span class="marker-image"><img src="/src/images/body/sidebar/top-post/Ellisse-3.png"></span>
+                        <span class="marker-text">A day exploring the Alps</span>
+                        <div class="comment">24 COMMENTS</div>
+                    </a>
+                </div>
+                <div class="post-ref">
+                    <a href="#">
+                        <span class="marker-image"><img src="/src/images/body/sidebar/top-post/Ellisse-3.png"></span>
+                        <span class="marker-text">American dream</span>
+                        <div class="comment">19 COMMENTS</div>
+                    </a>
+                </div>
+                <div class="post-ref">
+                    <a href="#">
+                        <span class="marker-image"><img src="/src/images/body/sidebar/top-post/Ellisse-3.png"></span>
+                        <span class="marker-text">Cold winter days</span>
+                        <div class="comment">15 COMMENTS</div>
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="aside-column">
+              <div class="banner">
+              <div class="banner-image"><a href=""><img src="/src/images/body/sidebar/banner/image.png"></a>
+                 <div class="banner-size">250X250</div>
+                <div class="banner-spot">BANNER SPOT</div>
+                </div>
+            </div>
+              </div>
             
-            </div>
-            <div class="banner">
-              
-            </div>
           </aside>
       <!---------------------------------Main-section--------------------------------->
         
@@ -44,9 +92,9 @@
                 photodiary
             </div>
             <article class="content">
-                <h2 class="article-header">Header</h2>
+                <h2 class="article-header">The perfect weekend getaway</h2>
                 <div class="text-in-the-article">
-                 <p class="simple-text">There is the text</p>
+                 <p class="simple-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <b> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</b> Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</p>
                 </div>
                 <div class="image-in-the-article">
                 <img src="/src/images/body/article/photo-1/image.png" alt="blondy and sand">
@@ -58,57 +106,57 @@
                 <img src="/src/images/body/article/photo-3/image.png" alt="blondy and sand">
                 </div>
                 <div class="text-in-the-article">
-                    <p class="italic-text">There is the text</p>
-                    <p class="simple-text">There is the text</p>
+                    <p class="italic-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p class="simple-text">Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
                 </div>
                 <div class="share-bar">
-                    <span>share</span>
-                    <span class="share-bar-logo">
+                    <span class="share-icon">SHARE</span>
+                    <span class="share-icon">
                         <a href="#">
-                        <img src="/src/images/body/share/fb.png"
-                             alt="facebook" title="Share in Facebook">
-                        </a>
-                        
-                    </span>
-                    <span class="share-bar-logo">
-                        <a href="#">
-                            <img src="/src/images/body/share/tw.png" alt="twitter" title="Share in Twitter">
-                        </a> 
-                    </span>
-                    <span class="share-bar-logo">
-                        <a href="#">
-                            <img src="/src/images/body/share/g+.png" alt="google+" title="Share in Google+">
+                        <img src="/src/images/body/share/fb.png" alt="facebook" title="Share in Facebook">
                         </a>
                     </span>
-                    <span class="share-bar-logo">
+                    <span class="share-icon">
                         <a href="#">
-                            <img src="/src/images/body/share/tumblr.png" alt="tambler" title="Share in Tambler">
+                        <img src="/src/images/body/share/tw.png" alt="twitter" title="Share in Twitter">
                         </a>
                     </span>
-                    <span class="share-bar-logo">
+                    <span class="share-icon">
                         <a href="#">
-                            <img src="/src/images/body/share/pinterest.png" alt="pinterest" title="Share in Pinterest">
+                        <img src="/src/images/body/share/g+.png" alt="google+" title="Share in Google+">
+                        </a>
+                    </span>
+                    <span class="share-icon">
+                        <a href="#">
+                         <img src="/src/images/body/share/tumblr.png" alt="tambler" title="Share in Tambler">
+                        </a>
+                    </span>
+                    <span class="share-icon">
+                        <a href="#">
+                        <img src="/src/images/body/share/pinterest.png" alt="pinterest" title="Share in Pinterest">
                         </a>
                     </span>
                 </div>
             </article>
           </section>
+        </div>
       </main>
+          
       <!---------------------------------End-Main--------------------------------->
-      <footer class="footer">
+<footer class="footer">
           <div class="footer-content">
-              <span class="footer-ref"><a href="#">Terms and Condition</a></span>
-              <span class="footer-ref"><a href="#">Privacy</a></span>
+              <span><a href="#" class="footer-ref">Terms and Condition</a></span>
+              <span><a href="#" class="footer-ref">Privacy</a></span>
           </div>
           <div class="follow-bar">
-              <span>Follow</span>
-              <span><a href="#">
+              <span  class="share-icon">Follow</span>
+              <span class="share-icon"><a href="#">
                   <img src="/src/images/footer/social/facebook.png" alt="facebook">
                   </a></span>
-              <span><a href="#">
+              <span class="share-icon"><a href="#">
                   <img src="/src/images/footer/social/twitter.png" alt="twitter">
                   </a></span>
-              <span><a href="#">
+              <span class="share-icon"><a href="#">
                   <img src="/src/images/footer/social/instagram.png" alt="instagram">
                   </a></span>
           </div>
